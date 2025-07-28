@@ -1,0 +1,10 @@
+{% extends 'lms/base.html' %}
+{% block content %}
+<h2>Delete Student</h2>
+<form method="post">
+    {% csrf_token %}
+    <label for="student_id">Student ID:</label>
+    <input type="text" name="student_id" required>
+    <button type="submit">Delete</button>
+</form>
+{% endblock %}

@@ -1,0 +1,98 @@
+body {
+    background: url('/static/lms/img.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.6);
+    margin: 40px auto;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+input, select, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #00c3ff;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007fad;
+}
+
+.message {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.message.success {
+    background-color: green;
+}
+
+.message.error {
+    background-color: red;
+}
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.student-table thead {
+    background-color: #007fad;
+    color: white;
+}
+
+.student-table th,
+.student-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.student-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.student-table td a {
+    margin-right: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #007fad;
+}
+
+.student-table td a:hover {
+    color: red;
+}
