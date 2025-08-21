@@ -25,4 +25,4 @@ A simple, stylish **Student LMS (Learning Management System)** web application b
 ---
 
 ## 🏗️ Project Structure
-
+### gunicorn myproject.wsgi:application
