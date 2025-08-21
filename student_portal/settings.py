@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-2nv4a_d39tz&b&y2-v2biwdpzt(h9(5)_z49h77-e7&-c4j7fe
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "student-portal-crud.onrender.com",  # your Render domain
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
@@ -123,4 +127,5 @@ STATICFILES_DIRS = [BASE_DIR / 'lms' / 'static']
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
