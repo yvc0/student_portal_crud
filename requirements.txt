@@ -1,0 +1,4 @@
+django
+gunicorn
+psycopg2-binary   # if using PostgreSQL on Render
+whitenoise        # if serving static files
